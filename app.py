@@ -174,7 +174,7 @@ if (acao == 'Pesquisa de Lotes disponíveis'):
     st.map(df)
 
     nome_acao = st.selectbox('Lotes disponíveis:', combustiveis)
-    df = pegar_dados()
+
 
     if (nome_acao == 'Una'):
 
