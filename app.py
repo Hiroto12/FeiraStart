@@ -64,7 +64,7 @@ if (acao == 'Monitoramento dos Lotes'):
         col1, col2 = st.columns(2)
         with col1:
 
-            image = Image.open(r'C:\Users\hirot\Pictures\lotes_start\lote1.jpg')
+            image = Image.open('lote1.jpg')
             st.image(image, caption='Terreno localizado em pasárgada', width=300)
 
         with col2:
@@ -114,7 +114,7 @@ if (acao == 'Monitoramento dos Lotes'):
         col1, col2 = st.columns(2)
         with col1:
 
-            image = Image.open(r'C:\Users\hirot\Pictures\lotes_start\lote2.jpg')
+            image = Image.open('lote2.jpg')
             st.image(image, caption='Terreno localizado em pasárgada', width=300)
 
         with col2:
@@ -181,7 +181,7 @@ if (acao == 'Pesquisa de Lotes disponíveis'):
         col1, col2 = st.columns(2)
         with col1:
 
-            image = Image.open(r'C:\Users\hirot\Pictures\lotes_start\lote1.jpg')
+            image = Image.open('lote1.jpg')
             st.image(image, caption='Lote localizado em XXXYYYZZZ', width=300)
 
         with col2:
@@ -194,7 +194,7 @@ if (acao == 'Pesquisa de Lotes disponíveis'):
 
         col1, col2 = st.columns(2)
         with col1:
-            image = Image.open(r'C:\Users\hirot\Pictures\lotes_start\lote2.jpg')
+            image = Image.open('lote2.jpg')
             st.image(image, caption='Lote localizado em XXXYYYZZZ', width=350)
 
         with col2:
@@ -206,7 +206,7 @@ if (acao == 'Pesquisa de Lotes disponíveis'):
 
         col1, col2 = st.columns(2)
         with col1:
-            image = Image.open(r'C:\Users\hirot\Pictures\lotes_start\lote3.jpg')
+            image = Image.open('lote3.jpg')
             st.image(image, caption='Lote localizado em XXXYYYZZZ', width=350)
 
         with col2:
