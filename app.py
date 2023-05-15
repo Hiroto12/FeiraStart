@@ -9,7 +9,7 @@ from plotly import graph_objs as go
 
 import plotly.express as px
 
-df2 = pd.read_csv(r'C:\Users\hirot\dados_teste_lingo.csv')
+
 
 st.title("Sumá Tech ")
 data_fim = date.today().strftime('%Y-%m-%d')
