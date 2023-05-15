@@ -12,7 +12,7 @@ import plotly.express as px
 st.title("Sumá Tech ")
 data_fim = date.today().strftime('%Y-%m-%d')
 
-st.sidebar.header('Protótipo Sumá Tech')
+st.sidebar.header('LALALAND')
 
 acao = st.sidebar.radio('Selecione a página', ('Pesquisa de Lotes disponíveis','Monitoramento dos Lotes'))
 # acao = 'Previsão de Volume'
