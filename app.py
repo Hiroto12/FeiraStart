@@ -46,7 +46,5 @@ def main():
     st.subheader('Tempo gasto na plataforma e AoV')
     time_data = pd.DataFrame(df_selected[['tempo plataforma minutos', 'tempo AOV minutos']])
     st.line_chart(time_data)
-
-
-if __name__ == "__main__":
-    main()
+    
+main()
